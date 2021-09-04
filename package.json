@@ -1,0 +1,66 @@
+{
+  "name": "react-app-boilerplate-theme-ui",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This is my simple react configuration for a minimalist project, using react, theme-ui, redux and apisauce.",
+  "author": "André Nespolon",
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "node ./scripts/check-version.js",
+    "start": "react-scripts start",
+    "server": "json-server --watch ./src/services/db.json",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "react",
+    "theme-ui",
+    "redux",
+    "sagas",
+    "react-icons",
+    "apisauce"
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "apisauce": "^2.1.1",
+    "polished": "^4.1.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-icons": "^4.2.0",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-toastify": "^5.3.1",
+    "redux": "^4.0.1",
+    "redux-persist": "^6.0.0",
+    "redux-persist-transform-encrypt": "^3.0.1",
+    "redux-saga": "^1.0.5",
+    "theme-ui": "^0.11.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.2",
+    "json-server": "^0.15.0",
+    "prettier": "^1.18.2"
+  }
+}
